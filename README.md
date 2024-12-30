@@ -34,27 +34,16 @@ Ensure you have the following installed:
 
   
 ### Clone the Repository
-  git clone https://github.com/Selvarajah-Vinushaanth/moneymanager.git
+  git clone https://github.com/Selvarajah-Vinushaanth/moneymanager/tree/master
   cd money-manager
 
-Backend Setup
-Navigate to the backend folder:
-
-bash
-Copy code
-cd backend
-Install backend dependencies:
-
-bash
-Copy code
-npm install
-Configure the database:
-
-Set up a MySQL database.
-Edit config/db.js with your MySQL credentials (host, user, password, database).
-Run the backend server:
-
-bash
-Copy code
-npm start
-The backend will run at http://localhost:5000.
+### Backend Setup
+  Navigate to the backend folder:
+  cd backend
+  Install backend dependencies :using npm install
+  Configure the database
+  Set up a MySQL database.
+  Edit config/db.js with your MySQL credentials (host, user, password, database).
+  Run the backend server:  
+  node server.js
+  The backend will run at http://localhost:5000.

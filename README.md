@@ -96,8 +96,8 @@ Create a new branch (git checkout -b feature-name)
 Commit your changes (git commit -am 'Add feature')
 Push to the branch (git push origin feature-name)
 Open a pull request
-License
-This project is licensed under the MIT License.
+
+
 
 Acknowledgments
 React
@@ -118,4 +118,4 @@ This README template provides a clear structure for understanding your project, 
 
 
 
-ChatG
+

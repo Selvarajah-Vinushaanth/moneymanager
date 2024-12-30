@@ -38,21 +38,22 @@ Ensure you have the following installed:
   cd money-manager
 
 ### Backend Setup
-  Navigate to the backend folder:
-  cd backend
-  Install backend dependencies :using npm install
-  Configure the database
-  Set up a MySQL database.
-  Edit config/db.js with your MySQL credentials (host, user, password, database).
-  Run the backend server:  
-  node server.js
-  The backend will run at http://localhost:5000.
+  -Navigate to the backend folder:
+  -cd backend
+  -Install backend dependencies :
+   using npm install
+  -Configure the database
+  -Set up a MySQL database.
+  -Edit config/db.js with your MySQL credentials (host, user, password, database).
+  -Run the backend server:  
+   node server.js
+  -The backend will run at http://localhost:5000.
 
 ### Frontend Setup
-  Navigate to the frontend folder:
-  cd ../frontend
-  Install frontend dependencies:
-  npm install
-  Run the frontend server:
-  npm start
+  -Navigate to the frontend folder:
+  -cd ../frontend
+  -Install frontend dependencies:
+   npm install
+  -Run the frontend server:
+   npm start
   The frontend will run at http://localhost:3000.

@@ -50,10 +50,42 @@ Ensure you have the following installed:
   The backend will run at http://localhost:5000.
 
 ### Frontend Setup
-  -Navigate to the frontend folder:
-  -cd ../frontend
-  -Install frontend dependencies:
-   npm install
-  -Run the frontend server:
-   npm start
+  Navigate to the frontend folder:
+  cd ../frontend
+  Install frontend dependencies:
+  npm install
+  Run the frontend server:
+  npm start
   The frontend will run at http://localhost:3000.
+  
+### Usage
+  Sign Up: New users can register using the Register page.
+  Log In: Returning users can log in with their credentials to access the dashboard.
+  Dashboard: View a detailed overview of your financial status, including charts of income and expenses.
+  Transactions: Add, manage, and view your transactions (both income and expenses).
+
+## API Endpoints
+  Here are the primary API endpoints used in the application:
+
+### Authentication
+  POST /api/auth/login: Log in a user with email and password.
+  POST /api/auth/register: Register a new user with email, password, and other necessary details.
+### Transactions
+  POST /api/transactions: Add a new transaction (either income or expense).
+  GET /api/transactions: Retrieve all transactions for the authenticated user.
+
+### Contributing
+  Contributions are welcome! To contribute:
+  
+  Fork the repository.
+  Create a new branch (git checkout -b feature-name).
+  Commit your changes (git commit -am 'Add feature').
+  Push to the branch (git push origin feature-name).
+  Open a pull request.
+  
+### Acknowledgments
+  React.js - For building the frontend.
+  Node.js/Express.js - For the backend server.
+  MySQL - For the database.
+  Chart.js - For generating charts and graphs.
+  JWT - For secure authentication.

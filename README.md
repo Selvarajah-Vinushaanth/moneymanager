@@ -1,3 +1,4 @@
+#Money Manager
 Money Manager - Advanced Financial Management System
 Overview
 This Money Manager is an advanced web application built using React, Node.js/Express, and MySQL that allows users to track their financial transactions, visualize income/expenses through charts, and manage personal finances efficiently. It includes features like login/register, transaction addition, history viewing, and graphical insights into financial data.

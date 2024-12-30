@@ -31,11 +31,11 @@ Ensure you have the following installed:
 - **Node.js** (v14 or higher)
 - **MySQL** (v8 or higher)
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/Selvarajah-Vinushaanth/moneymanager.git
-cd money-manager
+  
+### Clone the Repository
+  git clone https://github.com/Selvarajah-Vinushaanth/moneymanager.git
+  cd money-manager
 
 Backend Setup
 Navigate to the backend folder:

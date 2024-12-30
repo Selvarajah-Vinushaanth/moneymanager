@@ -47,3 +47,12 @@ Ensure you have the following installed:
   Run the backend server:  
   node server.js
   The backend will run at http://localhost:5000.
+
+### Frontend Setup
+  Navigate to the frontend folder:
+  cd ../frontend
+  Install frontend dependencies:
+  npm install
+  Run the frontend server:
+  npm start
+  The frontend will run at http://localhost:3000.

@@ -36,4 +36,25 @@ Ensure you have the following installed:
 ```bash
 git clone https://github.com/Selvarajah-Vinushaanth/moneymanager.git
 cd money-manager
-![image](https://github.com/user-attachments/assets/95386e3d-6981-4b8d-b735-8e4458f8ab92)
+
+Backend Setup
+Navigate to the backend folder:
+
+bash
+Copy code
+cd backend
+Install backend dependencies:
+
+bash
+Copy code
+npm install
+Configure the database:
+
+Set up a MySQL database.
+Edit config/db.js with your MySQL credentials (host, user, password, database).
+Run the backend server:
+
+bash
+Copy code
+npm start
+The backend will run at http://localhost:5000.
